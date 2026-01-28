@@ -136,3 +136,6 @@ db.users.replaceOne(
   { name: "Bob", age: 29, city: "Vijayawada" }
 )
 ```
+
+- to delete the record  `db.users.deleteOne({name:"Dhanush"})`
+- to delete many records `db.users.deleteMany({ age: { $gte: 25 } })`
