@@ -1,0 +1,26 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "- MongoDB is a NoSQL database that stores data in JSON-like documents (called BSON).\r - This makes it flexible, scalable, and ideal for modern applications where schema may change over time. - Unlike SQL databases, MongoDB doesn’t require a fixed schema.",
+  "main": "Pratrice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanushbondu/MongoDb---Pratrice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dhanushbondu/MongoDb---Pratrice/issues"
+  },
+  "homepage": "https://github.com/dhanushbondu/MongoDb---Pratrice#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.16.2"
+  }
+}
